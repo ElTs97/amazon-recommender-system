@@ -199,5 +199,8 @@ def show_recommendations(product):
     prediction = model.predict(Y)
     print_cluster(prediction[0])
 
-# Test the recommendation system with a sample product description (e.g., "supports core")
+# Test the recommendation system with a sample product description 
 show_recommendations("supports core")
+
+# Test the recommendation system with a sample product description
+show_recommendations("tv hdmi easy xbox")
